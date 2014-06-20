@@ -7,7 +7,7 @@
 ## its inverse (lazily evaluated by cacheSolve).
 #
 
-rm(list=ls())
+" rm(list=ls()) "
 
 makeCacheMatrix <- function(x=matrix()) {
   # Initialize the cached data.
